@@ -1,0 +1,6 @@
+package: github.com/mathpl/k8s-capacity
+import:
+- package: k8s.io/kubernetes
+  version: ^1.8.0-alpha.0
+  subpackages:
+  - pkg/api/resource
